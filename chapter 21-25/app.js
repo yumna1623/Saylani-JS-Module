@@ -1,13 +1,21 @@
 
 // ----------------------------------- question 1 -----------------
-let firstName = prompt("Enter First name")
-let secName = prompt("Enter second name")
-let FullName=firstName+secName;
-alert("welcome"+FullName)
+// let firstName = prompt("Enter First name")
+// let secName = prompt("Enter second name")
+// let FullName=firstName+secName;
+// alert("welcome"+FullName)
 
 // ----------------------------------- question 2 -----------------
-let mobile  
+// let mobile  = prompt("enter your fav mob name")
+// let lengthh = 0
+// for (let index = 0; index < mobile.length; index++) {
+//     lengthh++
+
+// }
+// console.log(lengthh);
+// document.write("my fav phone is  "+ mobile +" and length of string is " +  length)
 // ----------------------------------- question 3 -----------------
+
 
 // ----------------------------------- question 4 -----------------
 
