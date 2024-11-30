@@ -13,7 +13,7 @@
 
 // }
 // console.log(lengthh);
-// document.write("my fav phone is  "+ mobile +" and length of string is " +  length)
+// document.write("my fav phone is  "+ mobile +" and length of string is " +  lengthh)
 // ----------------------------------- question 3 -----------------
 
 
