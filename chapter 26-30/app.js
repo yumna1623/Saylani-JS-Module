@@ -1,58 +1,65 @@
 
-// ----------------------------------- question 1 -----------------
+// ----------------------------------- question 1 -------------------------------------------------------------
+// let num = prompt("enter a number")
+// let floorValue = Math.floor(num);  
+//         let ceilValue = Math.ceil(num);    
 
-// ----------------------------------- question 2 -----------------
-
-// ----------------------------------- question 3 -----------------
-
-// ----------------------------------- question 4 -----------------
-
-// ----------------------------------- question 5 -----------------
-
-
-// ----------------------------------- question 6 -----------------
-
-// ----------------------------------- question 7 -----------------
+//         document.write("Given number: " + num + "<br>");
+//         document.write("Floor value: " + floorValue + "<br>");
+//         document.write("Ceil value: " + ceilValue + "<br>");
 
 
+// ----------------------------------- question 2 ---------------------------------------------------------------------
+// let num = parseFloat(prompt("Enter a negative float number:"));
+// if (num >= 0) {
+//     alert("Please enter a negative number.");
+// } else {
+//     let floorValue = Math.floor(num); 
+//     let ceilValue = Math.ceil(num);   
 
+//     document.write("Given number: " + num + "<br>");
+//     document.write("Floor value: " + floorValue + "<br>");
+//     document.write("Ceil value: " + ceilValue + "<br>");
+// }
 
-// ----------------------------------- question 8-----------------
+// ----------------------------------- question 3 -------------------------------------------------------------
+// let inp = prompt("enter a num to find absolute value of it")
+// if(inp<0)
+// {
+//     document.write(`absolute value of ${inp} =  ${inp*(-1)}`)
+// }
+// else if(inp>0){
+//     document.write(`absolute value of ${inp} =  ${inp}`)
 
+// }
 
-// ----------------------------------- question 9 -----------------
-
-
-// ----------------------------------- question 10 -----------------
-
-// ----------------------------------- question 11-----------------
-// ----------------------------------- question 12-----------------
-// ----------------------------------- question 13-----------------
-// ----------------------------------- question 14-----------------
-// ----------------------------------- question 15-----------------
-
-
-
-// ----------------------------------- question 16-----------------
-// var university = "university of karachi"
-// let array = university.split("")
-// array.forEach(function(char)  {
-//     document.write(char + "<br>")
-    
-// });
+// ----------------------------------- question 4 -------------------------------------------------------------
+// let dice = Math.floor(Math.random()*6)+1
+// document.write("Random dice value: " + dice);
 
 
 
-
-// ----------------------------------- question 17-----------------
-// let input = prompt("enter any word i will tell the last char of it")
-// let lastChar = input[input.length-1]
-// alert("The last character of the word is: " + lastChar);
+// ----------------------------------- question 5 -------------------------------------------------------------
+// let coinFlip = Math.random() < 0.5 ? "Heads" : "Tails";
+// document.write("Coin flip result: " + coinFlip);
 
 
 
-// ----------------------------------- question 18-----------------
-// let text = "the quick brown fox jumps over the lazy dog. .";
-// let wordToFind = "the";
-// let count = text.split(wordToFind).length - 1;
-// document.getElementById("result").innerText =`The word "${wordToFind}" occurs ${count} time(s) in the given text.`;
+// ----------------------------------- question 6 -------------------------------------------------------------
+// let randnum = Math.floor(Math.random()*100)+1
+// document.write("Random  value: " + randnum);
+
+
+// ----------------------------------- question 7 -------------------------------------------------------------
+
+// ----------------------------------- question 8-------------------------------------------------------------
+// let randNum = Math.floor(Math.random()*10)+1
+// let userinp = prompt("guess a num")
+// userinp = Number(userinp)
+// if(userinp==randNum){
+//     document.write("congratulate your guess is correct")
+// }
+// else{
+//     alert("try again")
+// }
+
